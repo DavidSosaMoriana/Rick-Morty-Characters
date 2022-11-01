@@ -51,13 +51,13 @@ export const LoginPage: React.FC<{}> = () => {
                 <Grid item>
                     <Paper sx={{ padding: '1.5em', borderRadius: '.5em' }}>
                         <Typography sx={{ mt: '1px', mb: '10px' }} variant="h4">
-                            Enter your Credentials
+                            Escribe tus datos
                         </Typography>
                         <Box component="form" onSubmit={handleSubmit}>
                             <TextField
                                 name="username"
                                 margin="normal"
-                                label="Email or Username"
+                                label="Email o Usuario"
                                 type="text"
                                 sx={{ mt: 2, mb: 1.5 }}
                                 fullWidth
@@ -67,7 +67,7 @@ export const LoginPage: React.FC<{}> = () => {
                             <TextField
                                 name="password"
                                 margin="normal"
-                                label="Password"
+                                label="Contraseña"
                                 type="password"
                                 autoComplete="on"
                                 sx={{ mt: 1.5, mb: 1.5 }}
@@ -82,7 +82,7 @@ export const LoginPage: React.FC<{}> = () => {
                                 variant="contained"
                                 sx={{ mt: 1.5, mb: 3 }}
                             >
-                                Login
+                               Inicia sesión
                             </Button>
                         </Box>
                     </Paper>

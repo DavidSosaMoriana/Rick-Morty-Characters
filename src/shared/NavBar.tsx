@@ -32,9 +32,9 @@ export const NavBar: React.FC<{}> = () => {
                                         variant="contained"
                                         onClick={() => navigate('login')}
                                     >
-                                        Login
+                                        Inicia Sesión
                                     </Button>
-                                    <Button variant="outlined">Register</Button>
+                                    <Button variant="outlined">Registrarse</Button>
                                 </Stack>
                             </Grid>
                         </Grid>
